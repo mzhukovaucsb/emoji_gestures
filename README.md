@@ -2,7 +2,7 @@
 
 ## Project Description
 
-### 1. Collecting tweets
+### 1. Data Collection
 
 file 1: download_tweets.ipynb 
 
