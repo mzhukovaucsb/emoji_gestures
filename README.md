@@ -27,7 +27,7 @@ The dataset contains 12 columns:
 -  *mention_present* - checks whether each tweet contains mention
 -  *url_present* - checks whether each tweet contains url
 -  *preprocess_tweet* - preprocessing step 1: tokenizing mentions, urls, and hashtags
--  *lowercase_tweet - preprocessing step 2: lowercasing
+-  *lowercase_tweet* - preprocessing step 2: lowercasing
 -  *remove_punct_tweet* - preprocessing step 3: removing punctuation
 -  *tokenize_tweet* - preprocessing step 4: tokenizing
     
@@ -48,7 +48,7 @@ The dataset contains 12 columns:
 -  *mention_present* - checks whether each tweet contains mention
 -  *url_present* - checks whether each tweet contains url
 -  *preprocess_tweet* - preprocessing step 1: tokenizing mentions, urls, and hashtags
--  *lowercase_tweet - preprocessing step 2: lowercasing
+-  *lowercase_tweet* - preprocessing step 2: lowercasing
 -  *remove_punct_tweet* - preprocessing step 3: removing punctuation
 -  *tokenize_tweet* - preprocessing step 4: tokenizing
     
