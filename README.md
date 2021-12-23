@@ -24,8 +24,8 @@ The dataset contains 12 columns:
 -  *hashtags* - lists all hashtags in a given tweet
 -  *user_encoded* - encoded Twitter user name: the first 3 characters of the user name and the first 3 characters of the user's location
 -  *location_encoded* - location of the user: "los_angeles", "san_diego", "san_jose", "san_francisco", "fresno", "long_beach", "sacramento", "oakland", "bakersfield", "anaheim", or "other"
--  *mention_present* - checks whether each tweet contains mention
--  *url_present* - checks whether each tweet contains url
+-  *mention_present* - checks whether each tweet contains mentions
+-  *url_present* - checks whether each tweet contains urls
 -  *preprocess_tweet* - preprocessing step 1: tokenizing mentions, urls, and hashtags
 -  *lowercase_tweet* - preprocessing step 2: lowercasing
 -  *remove_punct_tweet* - preprocessing step 3: removing punctuation
@@ -45,8 +45,8 @@ The dataset contains 12 columns:
 -  *hashtags* - lists all hashtags in a given tweet
 -  *user_encoded* - encoded Twitter user name: the first 3 characters of the user name and the first 3 characters of the user's location
 -  *location_encoded* - location of the user: "moscow", "moscow_region", or "other"
--  *mention_present* - checks whether each tweet contains mention
--  *url_present* - checks whether each tweet contains url
+-  *mention_present* - checks whether each tweet contains mentions
+-  *url_present* - checks whether each tweet contains urls
 -  *preprocess_tweet* - preprocessing step 1: tokenizing mentions, urls, and hashtags
 -  *lowercase_tweet* - preprocessing step 2: lowercasing
 -  *remove_punct_tweet* - preprocessing step 3: removing punctuation
