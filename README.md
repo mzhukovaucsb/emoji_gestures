@@ -18,18 +18,18 @@ The dataset consists of 479 193 tweets each of them contains one of the 31 gestu
 
 The dataset contains 12 columns:
 
-• *tweet_original* - original text of the tweet
-• *preprocessed* - preprocessed text of the tweet (4 steps)
-• *all_emoji* - lists all emoji in a given tweet
-• *hashtags* - lists all hashtags in a given tweet
-• *user_encoded* - encoded Twitter user name: the first 3 characters of the user name and the first 3 characters of the user's location
-• *location_encoded* - location of the user: "los_angeles", "san_diego", "san_jose", "san_francisco", "fresno", "long_beach", "sacramento", "oakland", "bakersfield", "anaheim", or "other"
-• *mention_present* - checks whether each tweet contains mention
-• *url_present* - checks whether each tweet contains url
-• *preprocess_tweet* - preprocessing step 1: tokenizing mentions, urls, and hashtags
-• *lowercase_tweet - preprocessing step 2: lowercasing
-• *remove_punct_tweet* - preprocessing step 3: removing punctuation
-• *tokenize_tweet* - preprocessing step 4: tokenizing
+-  *tweet_original* - original text of the tweet
+-  *preprocessed* - preprocessed text of the tweet (4 steps)
+-  *all_emoji* - lists all emoji in a given tweet
+-  *hashtags* - lists all hashtags in a given tweet
+-  *user_encoded* - encoded Twitter user name: the first 3 characters of the user name and the first 3 characters of the user's location
+-  *location_encoded* - location of the user: "los_angeles", "san_diego", "san_jose", "san_francisco", "fresno", "long_beach", "sacramento", "oakland", "bakersfield", "anaheim", or "other"
+-  *mention_present* - checks whether each tweet contains mention
+-  *url_present* - checks whether each tweet contains url
+-  *preprocess_tweet* - preprocessing step 1: tokenizing mentions, urls, and hashtags
+-  *lowercase_tweet - preprocessing step 2: lowercasing
+-  *remove_punct_tweet* - preprocessing step 3: removing punctuation
+-  *tokenize_tweet* - preprocessing step 4: tokenizing
     
 ### 4. Dataset: Russian
 
@@ -39,17 +39,17 @@ The dataset consists of 48 838 tweets each of them contains one of the 31 gestur
 
 The dataset contains 12 columns:
 
-• *tweet_original* - original text of the tweet
-• *preprocessed* - preprocessed text of the tweet (4 steps)
-• *all_emoji* - lists all emoji in a given tweet
-• *hashtags* - lists all hashtags in a given tweet
-• *user_encoded* - encoded Twitter user name: the first 3 characters of the user name and the first 3 characters of the user's location
-• *location_encoded* - location of the user: "moscow", "moscow_region", or "other"
-• *mention_present* - checks whether each tweet contains mention
-• *url_present* - checks whether each tweet contains url
-• *preprocess_tweet* - preprocessing step 1: tokenizing mentions, urls, and hashtags
-• *lowercase_tweet - preprocessing step 2: lowercasing
-• *remove_punct_tweet* - preprocessing step 3: removing punctuation
-• *tokenize_tweet* - preprocessing step 4: tokenizing
+-  *tweet_original* - original text of the tweet
+-  *preprocessed* - preprocessed text of the tweet (4 steps)
+-  *all_emoji* - lists all emoji in a given tweet
+-  *hashtags* - lists all hashtags in a given tweet
+-  *user_encoded* - encoded Twitter user name: the first 3 characters of the user name and the first 3 characters of the user's location
+-  *location_encoded* - location of the user: "moscow", "moscow_region", or "other"
+-  *mention_present* - checks whether each tweet contains mention
+-  *url_present* - checks whether each tweet contains url
+-  *preprocess_tweet* - preprocessing step 1: tokenizing mentions, urls, and hashtags
+-  *lowercase_tweet - preprocessing step 2: lowercasing
+-  *remove_punct_tweet* - preprocessing step 3: removing punctuation
+-  *tokenize_tweet* - preprocessing step 4: tokenizing
     
     
