@@ -4,13 +4,26 @@
 
 ...
 
-### 1. Data Collection (download_tweets.ipynb )
+### 1. Data Collection (*download_tweets.ipynb*)
 
-...
+The first step in my project was to collect tweets using Python's *tweepy* library. The file *download_tweets.ipynb* contains a script to download tweets given the chosen location and date, and returns text of the tweet, username, location, and date a tweet was written, saved into a .csv file. 
 
-### 2. Data preprocessing (dataset_preprocessing.ipynb)
+### 2. Data preprocessing (*dataset_preprocessing.ipynb*)
 
-...
+The second step in my project was to do text preprocessing using Python libraries *re, preprocessor, emoji, regex, string, nltk*. The file *dataset_preprocessing.ipynb* contains several functions: 
+
+-  *hashtags* - returns a list of hashtags for each tweet thath contains hashtags
+-  *encoding_username* - encodes user names combining the first 3 characters of the user name and the first 3 characters of the user's location
+-  *all_emoji_tweet* - returns a list of all emoji that each tweet contains
+-  *preprocess_tweet* - for each tweet, tokenizes hashtags, urls, and mentions
+-  *lowecase_tweet* - lowercasing for each tweet
+-  *remove_punct_tweet* - removes punctuation marks for each tweet
+-  *tokenize_tweet* - tokenizes each tweet
+-  *preprocessed* - puts all the stage of preprocessing together
+-  *url* - for each tweet, checks in the tweet contains urls
+-  *mention* -  for each tweet, checks in the tweet contains mentions
+-  *hashtag* - for each tweet, checks in the tweet contains hashtags
+
 
 ### 3. Dataset: Engish
 
