@@ -12,7 +12,7 @@ file 2: dataset_preprocessing.ipynb
 
 ### 3. Dataset: Engish
 
-The dataset "Emoji Gestures in English Tweets: California" can be found here: https://zenodo.org/record/5800198#.YcPRui-B1QI
+The dataset "Emoji Gestures in English Tweets: California" can be found here: hhttps://zenodo.org/record/5802317#.YcTWIC-B1QJ
 
 The dataset consists of 479 193 tweets. Each of them contains one of the 31 gesture emoji (different hand configurations) and its skin tone modifier options (e.g. 🙏🙏🏿🙏🏾🙏🏽🙏🏼🙏🏻). Tweets were posted within 250km from San Jose, CA and within 200km from Los Angeles, CA, in English, during May-August 2021. The dataset can be used to investigate the use of gesture emoji by English-speaking California Twitter users. Python libraries used for collecting tweets and preprocessing: tweepy, re, preprocessor, emoji, regex, string, nltk.
 
@@ -33,7 +33,7 @@ The dataset contains 12 columns:
     
 ### 4. Dataset: Russian
 
-The dataset "Emoji Gestures in Russian Tweets: Moscow" can be found here: https://zenodo.org/record/5800200#.YcPQTC-B1QI
+The dataset "Emoji Gestures in Russian Tweets: Moscow" can be found here: https://zenodo.org/record/5802328#.YcTWIS-B1QK
 
 The dataset consists of 48 838 tweets. Each of them contains one of the 31 gesture emoji (different hand configurations) and its skin tone modifier options (e.g. 🙏🙏🏿🙏🏾🙏🏽🙏🏼🙏🏻). Tweets were posted within 50km from Moscow, Russia, in Russian, during May-August 2021. The dataset can be used to investigate the use of gesture emoji by Russian users of the Twitter platform. Python libraries used for collecting tweets and preprocessing: tweepy, re, preprocessor, emoji, regex, string, nltk. 
 
