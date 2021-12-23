@@ -2,13 +2,15 @@
 
 ## Project Description
 
-### 1. Data Collection
+...
 
-file 1: download_tweets.ipynb 
+### 1. Data Collection (download_tweets.ipynb )
 
-### 2. Data preprocessing
+...
 
-file 2: dataset_preprocessing.ipynb
+### 2. Data preprocessing (dataset_preprocessing.ipynb)
+
+...
 
 ### 3. Dataset: Engish
 
