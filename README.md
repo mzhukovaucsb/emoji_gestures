@@ -6,7 +6,7 @@
 
 ### 1. Data Collection (*download_tweets.ipynb*)
 
-The first step in my project was to collect tweets using Python's *tweepy* library. The file *download_tweets.ipynb* contains a script to download tweets given the chosen location and date, and returns text of the tweet, username, location, and date a tweet was written, saved into a .csv file. 
+The first step in my project was to collect tweets using Python's *tweepy* library. The file *download_tweets.ipynb* contains a script to download tweets containing the character of interest (gesture emoji, in this case) given the chosen location and date, and returns text of the tweet, username, location, and date a tweet was written, saved into a .csv file. 
 
 ### 2. Data preprocessing (*dataset_preprocessing.ipynb*)
 
