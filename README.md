@@ -1,14 +1,14 @@
-# Gestures Emoji Twitter Corpus
+# Gesture Emoji Twitter Corpus
 
 ## Project Description
 
 ### 1. Collecting tweets
 
-file: download_tweets.ipynb 
+file 1: download_tweets.ipynb 
 
 ### 2. Data preprocessing
 
-file: dataset_preprocessing.ipynb
+file 2: dataset_preprocessing.ipynb
 
 ### 3. Dataset: Engish
 
@@ -19,7 +19,7 @@ The dataset consists of 479 193 tweets. Each of them contains one of the 31 gest
 The dataset contains 12 columns:
 
 -  *tweet_original* - original text of the tweet
--  *preprocessed* - preprocessed text of the tweet (4 steps)
+-  *preprocessed* - preprocessed text of the tweet (4 initial steps)
 -  *all_emoji* - lists all emoji in a given tweet
 -  *hashtags* - lists all hashtags in a given tweet
 -  *user_encoded* - encoded Twitter user name: the first 3 characters of the user name and the first 3 characters of the user's location
@@ -40,7 +40,7 @@ The dataset consists of 48 838 tweets. Each of them contains one of the 31 gestu
 The dataset contains 12 columns:
 
 -  *tweet_original* - original text of the tweet
--  *preprocessed* - preprocessed text of the tweet (4 steps)
+-  *preprocessed* - preprocessed text of the tweet (4 initial steps)
 -  *all_emoji* - lists all emoji in a given tweet
 -  *hashtags* - lists all hashtags in a given tweet
 -  *user_encoded* - encoded Twitter user name: the first 3 characters of the user name and the first 3 characters of the user's location
